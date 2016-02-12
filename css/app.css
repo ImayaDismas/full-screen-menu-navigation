@@ -13,7 +13,7 @@ p {
   position: fixed;
   width: 110px;
   height: 98px;
-  right: 0px;
+  right: 70px;
   top: 0px;
   cursor: pointer;
   z-index: 200;
@@ -89,10 +89,11 @@ p {
   transform: translateX(11px) rotate(-45deg);
 }
 nav {
-  width: 100%;
+  width: 91%;
   height: 100%;
   position: fixed;
   z-index: 100;
+  padding-right: 0.9375rem;
 }
 
 nav.out {
@@ -109,12 +110,14 @@ nav ul, li {
   margin: 0;
   width: 100%;
   cursor: pointer;
+  padding-right: 0.9375rem;
 }
 
 nav ul {
   height: 100%;
   width: 100%;
   position: absolute;
+  padding-right: 0.9375rem;
 }
 
 nav li {
@@ -216,6 +219,7 @@ nav.in li {
   top: 50%;
   margin-top: -8px;
   text-transform: uppercase;
+  padding-right: 0.9375rem;
 }
 .header {
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/bg.jpg);
