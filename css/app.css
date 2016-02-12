@@ -217,3 +217,22 @@ nav.in li {
   margin-top: -8px;
   text-transform: uppercase;
 }
+.header {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/bg.jpg);
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  top: 0px;
+}
+
+.header h1 {
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  margin: 0;
+  font-family: "Patua One", cursive;
+  text-align: center;
+  display: block;
+  top: 50%;
+}
